@@ -1,5 +1,6 @@
 from sanic import Sanic
 from sanic.response import json
+import sys
 
 app = Sanic()
 
@@ -12,3 +13,5 @@ async def test(request):
 
 #app.run()
 app.run(host= '0.0.0.0', port=8000)
+print ('exiting...')
+sys.exit(0)
