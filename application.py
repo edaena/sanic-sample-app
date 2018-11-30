@@ -11,6 +11,4 @@ async def test(request):
 #    app.run(host="0.0.0.0", port=8000)
 
 #app.run()
-app.run(host= '0.0.0.0', port=80)
-#print ('exiting...')
-#sys.exit(0)
+app.run(host= '0.0.0.0', port=8000)
